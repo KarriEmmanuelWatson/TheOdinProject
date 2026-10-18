@@ -1,0 +1,228 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Discover thoughtfully sourced beans, handcrafted coffee, and a welcoming atmosphere at BrewHouse."
+    >
+
+    <title>BrewHouse | Specialty Coffee</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="site-header" id="top">
+        <a href="#top" class="logo" aria-label="BrewHouse home">
+            BrewHouse<span class="logo-dot">.</span>
+        </a>
+
+        <nav class="main-nav" aria-label="Main navigation">
+            <ul>
+                <li><a href="#menu">Our Menu</a></li>
+                <li><a href="#story">Our Story</a></li>
+                <li><a href="#visit">Visit Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero section -->
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="hero-content">
+                <p class="eyebrow">YOUR NEIGHBORHOOD COFFEE HOUSE</p>
+
+                <h1 id="hero-title">
+                    Your daily ritual,<br>
+                    <span>brewed better.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Thoughtfully sourced beans, expertly crafted coffee,
+                    and a welcoming space to slow down.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#menu" class="button button-primary">
+                        Explore our menu
+                    </a>
+
+                    <a href="#visit" class="button button-secondary">
+                        Find our café
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <img
+                    src="images/coffee-hero.jpg"
+                    alt="Freshly prepared coffee in a welcoming café"
+                    fetchpriority="high"
+                >
+            </div>
+        </section>
+
+        <!-- Coffee menu section -->
+        <section
+            class="menu section"
+            id="menu"
+            aria-labelledby="menu-title"
+        >
+            <div class="section-heading">
+                <p class="eyebrow">MADE WITH CARE</p>
+                <h2 id="menu-title">Our favourites</h2>
+                <p class="section-description">
+                    A few good reasons to make this your daily stop.
+                </p>
+            </div>
+
+            <div class="menu-cards">
+                <article class="menu-card">
+                    <img
+                        src="images/cappuccino.jpg"
+                        alt="Cappuccino topped with delicate latte art"
+                        loading="lazy"
+                    >
+
+                    <div class="menu-card-content">
+                        <h3>Cappuccino</h3>
+                        <p>
+                            Rich espresso, steamed milk, and silky foam.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="menu-card">
+                    <img
+                        src="images/iced-latte.jpg"
+                        alt="Refreshing iced latte served in a glass"
+                        loading="lazy"
+                    >
+
+                    <div class="menu-card-content">
+                        <h3>Iced Latte</h3>
+                        <p>
+                            Smooth espresso poured over ice and chilled milk.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="menu-card">
+                    <img
+                        src="images/flat-white.jpg"
+                        alt="Flat white with delicate latte art"
+                        loading="lazy"
+                    >
+
+                    <div class="menu-card-content">
+                        <h3>Flat White</h3>
+                        <p>
+                            Bold espresso balanced with velvety microfoam.
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Brand story section -->
+        <section
+            class="story section"
+            id="story"
+            aria-labelledby="story-title"
+        >
+            <div class="story-image">
+                <img
+                    src="images/coffee-hero.jpg"
+                    alt="Coffee being carefully prepared by a barista"
+                    loading="lazy"
+                >
+            </div>
+
+            <div class="story-content">
+                <p class="eyebrow">A LITTLE ABOUT US</p>
+
+                <h2 id="story-title">
+                    More than just coffee.
+                </h2>
+
+                <p>
+                    At BrewHouse, we believe great coffee brings people
+                    together. We carefully select our beans and craft
+                    every cup with care, creating a welcoming space for
+                    your everyday moments.
+                </p>
+
+                <p>
+                    Whether you're starting your morning, catching up
+                    with a friend, or taking a well-deserved break,
+                    there's always a place for you here.
+                </p>
+
+                <a href="#visit" class="button button-primary">
+                    Come visit us
+                </a>
+            </div>
+        </section>
+
+        <!-- Visit and contact section -->
+        <section
+            class="visit section"
+            id="visit"
+            aria-labelledby="visit-title"
+        >
+            <div class="visit-inner">
+                <p class="eyebrow">YOUR NEXT COFFEE BREAK</p>
+
+                <h2 id="visit-title">
+                    Your table is waiting.
+                </h2>
+
+                <p class="visit-intro">
+                    Good coffee, warm conversations, and a little time
+                    for yourself. We look forward to welcoming you.
+                </p>
+
+                <div class="visit-details">
+                    <div class="visit-item">
+                        <h3>Find us</h3>
+                        <address>
+                            123 Coffee Lane<br>
+                            Your City, India
+                        </address>
+                    </div>
+
+                    <div class="visit-item">
+                        <h3>Opening hours</h3>
+                        <p>Monday – Friday: 8 AM – 8 PM</p>
+                        <p>Saturday – Sunday: 9 AM – 9 PM</p>
+                    </div>
+                </div>
+
+                <a
+                    href="mailto:hello@brewhouse.example"
+                    class="button button-light"
+                >
+                    Get in touch
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <a href="#top" class="footer-logo">BrewHouse.</a>
+
+        <p>Good coffee. Good company. Better everyday moments.</p>
+
+        <a href="#top" class="back-to-top">Back to top ↑</a>
+
+        <p class="copyright">
+            © 2026 BrewHouse. A fictional café website.
+        </p>
+    </footer>
+</body>
+</html>
